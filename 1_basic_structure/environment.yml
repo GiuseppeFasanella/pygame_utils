@@ -1,0 +1,10 @@
+name: zelda-env #conda env create -f environment.yml
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - python
+  - ipykernel #python -m ipykernel install --user --name portfolio-env --display-name "portfolio-env"
+  - pip
+  - pip:
+      - pygame
